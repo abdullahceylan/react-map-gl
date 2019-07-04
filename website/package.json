@@ -11,7 +11,9 @@
     "build-clean": "rm -rf ./dist && mkdir dist",
     "build-script": "webpack -p --config webpack/prod",
     "build": "npm run build-clean && npm run build-script",
-    "lint": "eslint src --ignore-pattern workers"
+    "lint": "eslint src --ignore-pattern workers",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "d3-color": "^1.0.1",
@@ -31,7 +33,8 @@
     "redux": "^3.6.0",
     "redux-actions": "^1.2.0",
     "redux-thunk": "^2.1.0",
-    "tween.js": "^16.6.0"
+    "tween.js": "^16.6.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
@@ -72,5 +75,6 @@
         ]
       }
     }
-  }
+  },
+  "snyk": true
 }
