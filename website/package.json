@@ -21,7 +21,7 @@
     "d3-random": "^1.1.0",
     "highlight.js": "^9.7.0",
     "immutable": "^3.7.5",
-    "marked": "^0.3.6",
+    "marked": "^0.4.0",
     "mapbox-gl": "0.38.0",
     "prop-types": "^15.5.8",
     "react": "^16.0.0",
