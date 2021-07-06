@@ -6,9 +6,9 @@
   },
   "dependencies": {
     "d3-array": "^1.0.1",
-    "d3-color": "^1.0.1",
+    "d3-color": "^3.0.0",
     "d3-random": "^1.0.2",
-    "d3-scale": "^1.0.3",
+    "d3-scale": "^4.0.0",
     "deck.gl": "^5.0.0",
     "react": "^16.0.0",
     "react-autobind": "^1.0.6",
