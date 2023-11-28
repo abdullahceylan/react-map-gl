@@ -22,7 +22,7 @@
     "highlight.js": "^9.7.0",
     "immutable": "^3.7.5",
     "marked": "^0.3.6",
-    "mapbox-gl": "0.38.0",
+    "mapbox-gl": "0.53.0",
     "prop-types": "^15.5.8",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
